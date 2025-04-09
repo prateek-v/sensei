@@ -1,7 +1,3 @@
-```
-
-### README.md
-```md
 # EKS Terraform Pipeline
 
 This repository provisions an Amazon EKS cluster using Terraform with automated GitHub Actions for validation and deployment.
