@@ -1,6 +1,6 @@
 pipeline{
   stage("build")
   {
-    echo "test build"
+    echo "test build using webhook "
   }
 }
