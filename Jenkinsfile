@@ -1,6 +1,11 @@
-pipeline{
-  stage("build")
-  {
-    echo "test build using webhook "
-  }
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo "test build using webhook "
+            }
+        }
+    }
 }
